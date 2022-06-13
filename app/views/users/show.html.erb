@@ -1,3 +1,4 @@
+<div class="loginBox">
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -9,6 +10,8 @@
   <strong>Password:</strong>
   <%= @user.passWord %>
 </p>
-
+<span>
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
+</span>
+</div>
